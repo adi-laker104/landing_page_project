@@ -8,20 +8,28 @@ body {
     flex-direction: column;
 }
 
-.header {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
-
-.top_line, .bottom_line {
-    display: flex;
-    justify-content: space-evenly;
-}
-
 .hero {
     display: flex;
     flex-direction: column;
+}
+
+.top_line {
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 100px;
+}
+
+.bottom_line {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 100px;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
 }
 
 .header_logo {
@@ -56,12 +64,24 @@ img {
     width: 300px;
 }
 
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.top_line, .bottom_line {
+    display: flex;
+    justify-content: space-evenly;
+}
+
 .placeholder {
     display: flex;
     background-color: gray;
+    height: 200px;
     width: 400px;
     align-items: center;
-    justify-content: center;;
+    justify-content: center;
 }
 
 h2 {
@@ -181,11 +201,23 @@ h2 {
     flex-direction: column;
 }
 
-.signup {
-    background-color: #3882F6;
-}
-
 .action_container {
+    background-color: #3882F6;
     display: flex;
     color: white;
+    padding: 50px;
+    border-radius: 10px;
+    
+}
+
+.link_container {
+    padding-left: 100px;
+}
+
+.right {
+    padding-right: 75px;
+}
+
+a {
+    margin: 5px;
 }
